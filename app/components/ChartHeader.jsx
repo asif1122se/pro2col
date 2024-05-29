@@ -2,7 +2,7 @@ import React from 'react'
 
 const ChartHeader = ({title, stats, timespan, value, img}) => {
   return (
-    <div className="h-[97px] flex justify-start items-start gap-x-[10px] gap-y-0 ">
+    <div className="md:h-[97px] flex sm:flex-row flex-col justify-start items-start gap-x-[10px] gap-y-0 ">
       <div className="flex-grow  h-[97px] flex flex-col justify-start items-start gap-y-[12px] gap-x-[12px]">
         <div className="flex-shrink-0  h-[25px] flex justify-start items-center gap-x-[12px] gap-y-0">
           <img src={img} id="0:650" className="flex-shrink-0 w-[22px] h-[23px]"></img>
@@ -21,7 +21,7 @@ const ChartHeader = ({title, stats, timespan, value, img}) => {
           </div>
         </div>
       </div>
-      <div className="flex-shrink-0 w-[141px] h-[37px] rounded-[8px] flex justify-start items-center gap-x-[6px] gap-y-0 p-[8px_12px] overflow-hidden bg-gray-100 cursor-pointer">
+      <div className="flex-shrink-0 w-[141px] h-[37px] rounded-[8px] flex justify-start items-center gap-x-[6px] gap-y-0 p-[8px_12px] overflow-hidden bg-gray-100 cursor-pointer ">
         <div className="flex-shrink-0 w-[95px] h-[21px] text-gray-500 font-inter font-medium text-[14px] leading-[21px] whitespace-nowrap">
           Last 6 Months
         </div>

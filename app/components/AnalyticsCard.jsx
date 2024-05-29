@@ -3,15 +3,15 @@ const AnalyticsCard = ({title, icon, subtitles, stats, totalStats, completed, co
   console.log("this is color", color)
 
   return (
-    <div className="w-[340px] h-[153px] shadow-lg rounded-lg flex flex-col justify-center items-center gap-6 py-2 overflow-hidden bg-white">
-      <div className="flex-shrink-0 w-[292px] h-[25px] flex justify-start items-center gap-3 px-4">
+    <div className="xl:w-[340px] h-[153px] shadow-lg rounded-lg flex flex-col justify-center items-center xl:gap-6 py-2 overflow-hidden bg-white">
+      <div className="flex-shrink-0 xl:w-[292px] h-[25px] flex justify-start items-center gap-3 px-4">
         <img src={icon} id="0:354" className="flex-shrink-0 w-[22px] h-[23px]" />
         <div className="flex-grow w-[222px] h-[25px] text-gray-700 font-inter text-[18px] font-semibold">
           {title}
         </div>
         <img src="/img/send.png" id="0:363" className="flex-shrink-0 w-[24px] h-[25px]"></img>
       </div>
-      <div className="flex-shrink-0 w-[292px] h-[58px] flex flex-col justify-start items-start gap-1 px-4">
+      <div className="flex-shrink-0 xl:w-[292px] h-[58px] flex flex-col justify-start items-start gap-1 px-4">
         <div className="flex-shrink-0  flex justify-start items-center gap-2">
           <div className="flex-shrink-0 text-gray-900 font-inter text-[16px] font-medium">
             {stats}

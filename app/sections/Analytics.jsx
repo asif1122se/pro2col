@@ -47,8 +47,9 @@ const analytics = [
 function Analytics() {
   console.log("this is test")
   return (
-    <section className="hero-section flex justify-center h-[200px] -mt-12 sm:h-[200px] w-full max-w-[1440px]">
-      <div className="w-full flex justify-between gap-6">
+    <section className="hero-section flex justify-center mb-10 mt:[100px] xl:h-[200px] xl:-mt-12 xl:h-[200px] px-4  w-full max-w-[1440px]">
+      {/* <div className="w-full flex justify-between xl:flex-nowrap flex-wrap  gap-6"> */}
+      <div class="w-full grid xl:flex grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {
             analytics.map(item => <AnalyticsCard key={item.id} icon={item.icon} title={item.title} subtitles={item.subtitle} stats={item.stats} totalStats={item.total} completed={item.completed} color={item.color}/>)
         }

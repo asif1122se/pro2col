@@ -22,7 +22,7 @@ const data = [
 ];
 const Boost = () => {
   return (
-    <section className="hero-section flex justify-center mt-10 mb-10w-full max-w-[1440px]">
+    <section className="hero-section flex justify-center mt-10 mb-10w-full px-4 max-w-[1440px]">
       <div className=" flex flex-col">
         <div className="flex items-center gap-x-20">
           <div className="flex-grow text-gray-900 font-inter font-semibold text-xl">
@@ -37,7 +37,8 @@ const Boost = () => {
             </img>
           </div>
         </div>
-        <div className="flex justify-between items-center gap-4 mt-4">
+        {/* <div className="flex justify-between items-center gap-4 mt-4"> */}
+        <div className="w-full grid xl:flex grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
             {
                 data.map(d => <BoostsCard key={d.id} title={d.title} duration={d.duration} img={d.img}/>)
             }

@@ -56,7 +56,7 @@ function StepsChart() {
     <div className='shadow-lg rounded p-4'>
       <ChartHeader title={"Weight"}
         img={"/img/weight.png"}
-        stats={"159IB"}
+        stats={"200IB"}
         value={"-4"}
         timespan={"6 months"} />
       <div className="chart-container">

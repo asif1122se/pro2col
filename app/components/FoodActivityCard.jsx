@@ -2,7 +2,7 @@ import React from 'react';
 
 const FoodActivityCard = () => {
   return (
-    <div className="max-w-[704px] w-full h-auto shadow-lg mb-10 rounded flex flex-col gap-6 px-6 py-2 bg-white">
+    <div className="xl:max-w-[704px] w-full h-auto shadow-lg mb-10 rounded flex flex-col gap-6 px-6 py-2 bg-white">
 
       <div className="flex-shrink-0 w-full h-6 flex justify-between items-center">
         <img src="/img/foodActivity.png" id="0:464" className="flex-shrink-0 w-6 h-6 me-2 "/>
@@ -13,7 +13,7 @@ const FoodActivityCard = () => {
       </div>
 
       <div className="flex-shrink-0 w-full flex flex-col justify-start items-center gap-6">
-        <div className="flex-shrink-0 self-stretch w-full flex justify-center items-start gap-3">
+        <div className="flex-shrink-0 self-stretch w-full flex flex-wrap xl:justify-center items-start gap-3">
           <div className="flex-shrink-0 self-stretch max-w-[214.67px] w-full h-[83px] rounded-lg flex justify-start items-center gap-4 p-4 bg-opacity-5 bg-teal-500 border border-teal-500">
             <img src="/img/breakfast-bg.png" className="flex-shrink-0 w-12 h-12"></img>
             <div className="flex-grow w-full h-[51px] flex flex-col justify-center items-start">

@@ -5,8 +5,8 @@ import WeightChart from "../components/WeightChart";
 
 function EarningChart() {
   return (
-    <section className="hero-section relative flex flex-col items-center justify-center w-full max-w-[1440px]">
-      <div className="w-full flex gap-5">
+    <section className="hero-section relative flex flex-col items-center justify-center w-full max-w-[1440px] px-4">
+      <div className="w-full  xl:flex gap-5">
         <FoodActivityCard/>
         <MacrosCard/>
       </div>
