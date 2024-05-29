@@ -11,7 +11,7 @@ const MacrosCard = () => {
         <img src="/img/send.png" id="0:577" className="flex-shrink-0 w-6 h-6"></img>
       </div>
       <div className="flex-shrink-0 md:h-[225px] flex sm:flex-row flex-col gap-3">
-        <div className="flex-shrink-0 max-w-[198px] w-full h-[198px] flex justify-center items-start gap-6">
+        <div className="flex-shrink-0 max-w-[198px] w-full h-[198px] flex justify-center md:items-start md:mx-0 mx-auto  gap-6">
           <div className="relative w-[198px] h-[198px]">
             <div className="absolute top-[60.2px] left-[32.44px] w-[91.99px] h-[72.72px] flex flex-col justify-start items-center gap-1">
               <div className="text-gray-900 text-[28px] font-medium">

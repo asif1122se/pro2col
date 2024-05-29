@@ -14,7 +14,7 @@ const FoodActivityCard = () => {
 
       <div className="flex-shrink-0 w-full flex flex-col justify-start items-center gap-6">
         <div className="flex-shrink-0 self-stretch w-full flex flex-wrap xl:justify-center items-start gap-3">
-          <div className="flex-shrink-0 self-stretch max-w-[214.67px] w-full h-[83px] rounded-lg flex justify-start items-center gap-4 p-4 bg-opacity-5 bg-teal-500 border border-teal-500">
+          <div className="flex-shrink-0 self-stretch md:max-w-[214.67px] w-full h-[83px] rounded-lg flex justify-start items-center gap-4 p-4 bg-opacity-5 bg-teal-500 border border-teal-500">
             <img src="/img/breakfast-bg.png" className="flex-shrink-0 w-12 h-12"></img>
             <div className="flex-grow w-full h-[51px] flex flex-col justify-center items-start">
               <div className="flex-shrink-0 self-stretch w-full h-7 text-black font-medium text-lg leading-6">
@@ -25,7 +25,7 @@ const FoodActivityCard = () => {
               </div>
             </div>
           </div>
-          <div className="flex-grow max-w-[208.67px] w-full h-[83px] rounded-lg flex justify-start items-center gap-4 bg-neutral-50">
+          <div className="flex-grow md:max-w-[208.67px] w-full h-[83px] rounded-lg flex justify-start items-center gap-4 bg-neutral-50">
             <img src="/img/lunch-bg.png" id="0:516" className="flex-shrink-0 w-12 h-12"></img>
             <div className="flex-grow w-full h-[51px] flex flex-col justify-center items-start">
               <div className="flex-shrink-0 self-stretch w-full h-7 text-black font-medium text-lg leading-6">
@@ -36,7 +36,7 @@ const FoodActivityCard = () => {
               </div>
             </div>
           </div>
-          <div className="flex-grow max-w-[208.67px] w-full h-[83px] rounded-lg flex justify-start items-center gap-4 p-4 bg-neutral-50">
+          <div className="flex-grow md:max-w-[208.67px] w-full h-[83px] rounded-lg flex justify-start items-center gap-4 p-4 bg-neutral-50">
             <img src="/img/dinner-bg.png" id="0:542" className="flex-shrink-0 w-12 h-12"></img>
             <div className="flex-grow w-full h-[51px] flex flex-col justify-center items-start">
               <div className="flex-shrink-0 self-stretch w-full h-7 text-black font-medium text-lg leading-6">

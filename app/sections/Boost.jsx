@@ -22,7 +22,7 @@ const data = [
 ];
 const Boost = () => {
   return (
-    <section className="hero-section flex justify-center mt-10 mb-10w-full px-4 max-w-[1440px]">
+    <section className="hero-section flex justify-center mt-10 mb-10w-full px-4 mb-10 max-w-[1440px]">
       <div className=" flex flex-col">
         <div className="flex items-center gap-x-20">
           <div className="flex-grow text-gray-900 font-inter font-semibold text-xl">
