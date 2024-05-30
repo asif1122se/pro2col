@@ -25,7 +25,7 @@ const FoodActivityCard = () => {
               </div>
             </div>
           </div>
-          <div className="flex-grow md:max-w-[208.67px] w-full h-[83px] rounded-lg flex justify-start items-center gap-4 bg-neutral-50">
+          <div className="flex-grow md:max-w-[208.67px] w-full h-[83px] rounded-lg flex justify-start items-center gap-4 p-4  bg-neutral-50">
             <img src="/img/lunch-bg.png" id="0:516" className="flex-shrink-0 w-12 h-12"></img>
             <div className="flex-grow w-full h-[51px] flex flex-col justify-center items-start">
               <div className="flex-shrink-0 self-stretch w-full h-7 text-black font-medium text-lg leading-6">
