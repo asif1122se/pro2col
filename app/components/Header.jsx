@@ -30,7 +30,7 @@ function Header() {
           <Bars3Icon className="w-6 h-6" />
         </button>
       </div>
-      <div className="hidden md:block logo">
+      <div className=" flex md:block logo">
         <Image alt="Logo" src={"/img/Logo.svg"} width={100} height={24} />
       </div>
       <nav className="hidden md:flex items-center gap-5 text-white">
