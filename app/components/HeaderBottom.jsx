@@ -2,7 +2,7 @@ import React from "react";
 
 const HeaderBottom = () => {
   return (
-    <div className="w-full xl:h-[165.58px] rounded-lg flex  justify-between items-center gap-0 p-3  md:p-10 overflow-hidden bg-gradient-to-r from-[#ddf5f4] to-[#e9f5e3] -mt-[130px] md:-mt-12">
+    <div className="w-full xl:h-[165.58px] rounded-lg flex  justify-between items-center gap-0 p-3  md:p-10 overflow-hidden bg-gradient-to-r from-[#ddf5f4] to-[#e9f5e3] -mt-[130px] sm:-mt-12">
       <div className="flex-shrink-0  md:h-18 flex xl:flex-row flex-col  justify-start items-center gap-x-10 w-full xl:w-auto">
         <div className="flex justify-between w-full flex-wrap">
         <div className="flex-shrink-0 xl:w-70 h-16 flex justify-start items-start gap-x-2 md:gap-x-6 mb-4">

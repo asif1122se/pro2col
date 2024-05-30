@@ -10,7 +10,7 @@ function EarningChart() {
         <FoodActivityCard/>
         <MacrosCard/>
       </div>
-      <div className="w-full grid grid-cols-1 gap-2 md:grid-cols-2 md:gap-4">
+      <div className="w-full grid grid-cols-1 gap-2 lg:grid-cols-2 md:gap-4">
           <StepsChart/>
           <WeightChart/>
       </div>
